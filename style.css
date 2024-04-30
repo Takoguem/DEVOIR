@@ -1,0 +1,40 @@
+*, ::before, ::after
+
+{
+    box-sizing: border-box;
+    margin : 0 ; 
+    padding : 0 ; 
+    overflow-x: hidden; 
+}
+
+
+header 
+{
+    position : relative ; 
+    z-index: 1 ; 
+    height : 700px;
+    padding-top : 150px ; 
+    text-align : center ; 
+}
+
+header .overlay
+{
+    position: absolute;
+    z-index : -1 ; 
+    inset  : 0 ; 
+    background-color:#30303032;
+}
+
+header video 
+{
+    position : absolute ; 
+    z-index: -2;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+ 
